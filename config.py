@@ -20,7 +20,7 @@ APP_ID = int(os.environ.get("APP_ID", "12293838"))
 API_HASH = os.environ.get("API_HASH", "cf8c7db0d609148786e7ca5c706909bd")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002096962621"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002550701140"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "5356695781"))
@@ -29,7 +29,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "5356695781"))
 PORT = os.environ.get("PORT", "8080")
 
 #File Auto Delete
-FILE_AUTO_DELETE = int(os.environ.get("FILE_AUTO_DELETE", "45")) # auto delete in seconds
+FILE_AUTO_DELETE = int(os.environ.get("FILE_AUTO_DELETE", "300")) # auto delete in seconds
 
 
 #Database 
